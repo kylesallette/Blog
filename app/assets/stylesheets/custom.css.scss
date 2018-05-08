@@ -20,3 +20,10 @@ $navbar-default-bg: #000000;
 .center {
   text-align: center;
 }
+
+.jumbotron {
+  background-image: asset-url('background.jpg');
+  background-size: cover;
+  height: 620px;
+
+}
