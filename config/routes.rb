@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get  'about', to: 'pages#about'
 
   resources :articles
+  
 
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
